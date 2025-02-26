@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stüssy Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background: url('https://www.stussy.com/cdn/shop/files/skate_banner.jpg?v=1708615002') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background: transparent !important;
+            box-shadow: none;
+            padding: 10px 20px;
+            z-index: 10;
+        }
+        .navbar-brand {
+            margin-left: 20px;
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+        .navbar-nav {
+            margin-left: auto;
+        }
+        .icon-link {
+            font-size: 1.4rem;
+            color: black;
+            margin-left: 15px;
+        }
+        /* Gray border line below the logo and icons */
+        .header-divider {
+            width: 100%;
+            height: 0.5px;
+            background-color: #ccc;
+            position: absolute;
+            top: 75px;
+            left: 0;
+            z-index: 15;
+        }
+        .footer {
+            text-align: left;
+            padding: 20px;
+            font-size: 12px;
+            background-color: white;
+            border-top: 1px solid #ddd;
+        }
+        .footer p {
+            margin: 0;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container d-flex align-items-center">
+            <a class="navbar-brand" href="#" style="position: absolute; left: 0px;">
+                <img src="Stussy-Logo-500x281.png" alt="Stussy Logo" style="height: 95px; padding-top: 45px; margin-left: -8px; margin-top: 10px;">
+            </a>
+            <div class="icon-container" style="position: absolute; top: 25px; right: 30px; z-index: 20; display: flex; gap: 15px;">
+                <a href="#" class="icon-link" style="font-size: 1.4rem; color: black;"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link" style="font-size: 1.4rem; color: black;"><i class="fas fa-shopping-bag"></i></a>
+                <a href="#" class="icon-link" style="font-size: 1.4rem; color: black;"><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-divider"></div> <!-- Gray line added below the header -->
+
+    <section class="hero-section position-relative" style="height: 97vh; margin: 3vh auto 0 auto; overflow: hidden; border-top: 8vh solid white; border-left: 2vw solid white; border-right: 2vw solid white; border-bottom: 2vw solid white; max-width: 100vw;">
+        <video autoplay loop muted playsinline class="w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover;">
+            <source src="videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+    <footer class="footer" style="text-align: left; padding: 10px; font-size: 15px; background-color: white; border-top: 1px solid #ddd;">
+        <p style="font-weight: bold; margin-top: 10px;">NEWSLETTER</p>
+        <p style="color: grey; margin-bottom: 20px;">E-MAIL</p>
+        <p style="color: grey; font-size: 15px;">&copy; 2025 STÜSSY</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
