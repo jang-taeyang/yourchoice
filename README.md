@@ -1,4 +1,5 @@
 # yourchoice
 [Experience YourChoice Bootstrap](https://courses.ics.hawaii.edu/ics314s25/morea/ui-frameworks/experience-yourchoice-bootstrap.html)
-## Website Recreation: https://www.stussy.com/
+[## Website Recreation: Stussy](https://www.stussy.com/)
+
 <img src="instructions.png" alt="Alt text" width="500">
