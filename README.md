@@ -1,5 +1,5 @@
 # yourchoice
-[Experience YourChoice Bootstrap](https://courses.ics.hawaii.edu/ics314s25/morea/ui-frameworks/experience-yourchoice-bootstrap.html)
+[Experience Your Choice (Bootstrap)](https://courses.ics.hawaii.edu/ics314s25/morea/ui-frameworks/experience-yourchoice-bootstrap.html)
 
 
 [Website Recreation: Stussy Homepage](https://www.stussy.com/)
